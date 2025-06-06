@@ -1,0 +1,63 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+.pointer {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.home_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+.label_action_wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.action_wrap {
+  flex-grow: 1;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 1rem;
+}
+.input_task_details_wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.task_management_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.task_item_wrap {
+  width: 150px;
+  height: 150px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task_list_wrap {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.filter_wrap {
+  display: flex;
+  gap: 1.5rem;
+}
