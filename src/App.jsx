@@ -25,7 +25,7 @@ const App = () => {
     <Container>
       <div className="home_wrap">
         <div className="label_action_wrap">
-          <h4>TODOAPP</h4>
+          <h4 className="w-50">TODOAPP</h4>
           <div className="action_wrap">
             <Button
               size="sm"
@@ -34,13 +34,13 @@ const App = () => {
             >
               create task
             </Button>
-            <AddToDo
-              open={open}
-              setOpen={() => setOpen(false)}
-              allTask={allTask}
-              setAllTask={(list) => setTaskData(list)}
-            />
           </div>
+          <AddToDo
+            open={open}
+            setOpen={() => setOpen(false)}
+            allTask={allTask}
+            setAllTask={(list) => setTaskData(list)}
+          />
         </div>
         <div className="task_management_wrap">
           {tasks.map((item, idx) => {

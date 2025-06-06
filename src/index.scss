@@ -17,6 +17,8 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem 0rem;
 }
 .action_wrap {
   flex-grow: 1;
@@ -25,6 +27,7 @@ a {
   flex-direction: column;
   align-items: end;
   gap: 1rem;
+  width: 50%;
 }
 .input_task_details_wrap {
   display: flex;

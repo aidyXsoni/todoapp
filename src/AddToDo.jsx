@@ -23,8 +23,9 @@ const AddToDo = (props) => {
       in={open}
       onExit={() => setTaskLabel("")}
       onExited={() => setTaskAdded(false)}
+      style={{ flexGrow: 1 }}
     >
-      <div>
+      <div className="w-100">
         <Form
           className="input_task_details_wrap"
           onReset={() => setOpen()}
